@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+$w: 28px;
+$bcolor:  #020202cc;
+.header {
+    background: #4287c7;
+    h1 {
+        font-family: 'Permanent Marker';
+        text-align: center;
+        color: aliceblue;
+    }
+}
+
+
+.maze {
+    display: grid;
+    margin: 20px auto;
+    width: 38%;
+    grid-template-columns: repeat(25, $w);
+    grid-gap: 0px;
+    line-height: $w;
+    .wall {
+        background: #50bd99;
+        color: #50bd99;
+        border: solid 1px $bcolor;
+        border-radius: 15%;
+    }
+    .goal {
+        background: #363636;
+        color: goldenrod;
+        border-radius: 50%;
+        text-align: center;
+        font-family: 'Permanent Marker';
+        font-size: 2em;
+    }
+    .other {
+        background: $bcolor;
+        color: $bcolor;
+    }
+    .player.down {
+        background-image: url('../../images/down.png');
+    }
+    .player.right {
+        background-image: url('../../images/right.png');
+    }
+    .player.left {
+        background-image: url('../../images/left.png');
+    }
+    .player.up {
+        background-image: url('../../images/up.png');
+    }
+}

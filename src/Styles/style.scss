@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Allerta+Stencil");
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+@import "../../node_modules/bulma/bulma";
+
+body {
+    background: #020202cc;
+}
+
+.header {
+    background-color: #d3dce1e6;
+}
+
+#boiling-icon {
+    background-image: url('../../images/icon.png');
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.button-container {
+    text-align: center;
+        button {
+        background-color: royalblue;
+        color: azure;
+        font-family: 'Slabo 27px';
+        font-size: 2em;
+        border: none;
+    }
+}
+
+p {
+    font-family: 'Slabo 27px';
+    font-size: 27px;
+}
+
+section {
+    #contact {
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg,  rgba(0,212,255,1) 0%, rgba(9,9,121,1) 50%, rgba(2,0,36,1) 100%,);
+    }
+
+    .calculatorSection {
+        background: #e9d1af;
+        height: 600px;
+        padding-top: 20px;
+    }
+    .mazeSection {
+        background:  #020202cc;;
+    }
+    .memorySection {
+        background: black;
+    }
+    .mhfileSection {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .divisorsito {
+        background: #8dff00;
+        height: 20px;
+        margin-bottom: 50px;
+    }
+
+    .tarjeta {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .exp {
+        border-top: 2px solid red; 
+    }
+}
+
+.pro {
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 30px;
+    background: rgba(73, 69, 69, 0.76);
+}
+
+#expe {
+    color: whitesmoke;
+    margin-top: 30px;
+}
